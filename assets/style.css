@@ -163,14 +163,6 @@ section h2 {
 .spotlight:nth-child(even) > :first-child { order: 2; }
 .spotlight h3 { font-size: 28px; letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 12px; }
 .spotlight p { color: var(--muted); font-size: 19px; margin: 0; max-width: 26em; }
-.shot-placeholder {
-  aspect-ratio: 644 / 1400;
-  display: grid;
-  place-items: center;
-  color: var(--muted);
-  border-style: dashed !important;
-  box-shadow: none !important;
-}
 
 .platforms img { border-radius: 14px; border: 1px solid var(--line); margin-top: 8px; }
 
