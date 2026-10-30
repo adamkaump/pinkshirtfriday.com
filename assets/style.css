@@ -145,24 +145,38 @@ section h2 {
 .gallery img { border-radius: 28px; border: 1px solid var(--line); }
 .gallery figcaption { color: var(--muted); font-size: 15px; margin-top: 10px; text-align: center; }
 
-/* Spotlights: a screenshot beside a short callout, alternating sides. */
-.spotlights { display: grid; gap: 72px; }
+/* Spotlights: hero-style bands, a phone rising from the bottom edge beside a short callout,
+   switching sides each time. */
+.spotlights { display: grid; gap: 24px; }
 .spotlight {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
-  align-items: center;
+  align-items: end;
+  padding: 56px 56px 0;
+  border-radius: 28px;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--ocean-1), var(--ocean-2));
+  color: #fff;
 }
-.spotlight > :first-child {
+.spotlight:nth-child(even) { background: linear-gradient(225deg, var(--ocean-1), var(--ocean-2)); }
+.spotlight img {
   justify-self: center;
   width: min(300px, 100%);
-  border-radius: 36px;
-  border: 1px solid var(--line);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+  border-radius: 36px 36px 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 0;
+  box-shadow: 0 -10px 60px rgba(0, 0, 0, 0.35);
 }
-.spotlight:nth-child(even) > :first-child { order: 2; }
-.spotlight h3 { font-size: 28px; letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 12px; }
-.spotlight p { color: var(--muted); font-size: 19px; margin: 0; max-width: 26em; }
+.spotlight:nth-child(even) img { order: 2; }
+.spotlight > div { align-self: center; padding-bottom: 56px; }
+.spotlight h3 {
+  font-size: clamp(30px, 4vw, 40px);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin: 0 0 14px;
+}
+.spotlight p { color: rgba(255, 255, 255, 0.85); font-size: 19px; margin: 0; max-width: 26em; }
 
 .platforms img { border-radius: 14px; border: 1px solid var(--line); margin-top: 8px; }
 
@@ -224,9 +238,8 @@ details p { margin: 10px 0 0; color: var(--muted); }
   .hero .wrap { grid-template-columns: 1fr; gap: 8px; }
   .hero-copy { padding-bottom: 32px; }
   .hero-phone { width: min(260px, 80%); }
-  .spotlights { gap: 56px; }
-  .spotlight { grid-template-columns: 1fr; gap: 24px; }
-  .spotlight:nth-child(even) > :first-child { order: 0; }
-  .spotlight > :first-child { width: min(260px, 80%); }
+  .spotlight { grid-template-columns: 1fr; gap: 8px; padding: 40px 24px 0; }
+  .spotlight img, .spotlight:nth-child(even) img { order: 2; width: min(260px, 80%); }
+  .spotlight > div { padding-bottom: 24px; }
   section { padding: 48px 0; }
 }
