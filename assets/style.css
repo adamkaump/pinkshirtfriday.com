@@ -112,6 +112,16 @@ img { max-width: 100%; height: auto; display: block; }
 .badge span { line-height: 1.2; }
 .badges { display: flex; flex-wrap: wrap; gap: 12px; }
 a.badge:hover { background: #f0f0f0; }
+.hero .badge-note { font-size: 15px; color: rgba(255, 255, 255, 0.7); margin: 14px 0 0; }
+
+/* Closing call to action: a hero-style band at the end of an app page. */
+.cta {
+  background: linear-gradient(135deg, var(--ocean-1), var(--ocean-2));
+  color: #fff;
+  text-align: center;
+}
+.cta p { color: rgba(255, 255, 255, 0.85); font-size: 19px; margin: 0 0 28px; }
+.cta .badges { justify-content: center; }
 
 section { padding: 64px 0; }
 section h2 {
@@ -174,6 +184,8 @@ section h2 {
 .doc { padding: 56px 0 72px; }
 .doc h1 { font-size: clamp(32px, 5vw, 44px); letter-spacing: -0.02em; line-height: 1.15; margin: 0 0 8px; }
 .doc .updated { color: var(--muted); margin: 0 0 32px; }
+.doc .updated.tight { margin-bottom: 8px; }
+.doc .intro { font-size: 19px; margin: 0 0 32px; }
 .doc h2 { font-size: 22px; margin: 36px 0 8px; }
 .doc p, .doc li { color: var(--text); }
 .doc ul { padding-left: 1.2em; }
