@@ -11,12 +11,16 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/favicon.png">
   <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/menu.js" defer></script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="/">Pink Shirt Friday</a>
-      <nav class="nav">
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+        <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav class="nav" id="nav">
         <a href="/pinpoint/">Pinpoint</a>
         <a href="/spider-solitaire/">Spider Solitaire</a>
         <a href="/kitchen-sync/">Kitchen Sync</a>
