@@ -136,17 +136,6 @@ section h2 {
 .feature h3 { margin: 0 0 6px; font-size: 18px; }
 .feature p { margin: 0; color: var(--muted); font-size: 16px; }
 
-.gallery {
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  padding-bottom: 12px;
-}
-.gallery figure { margin: 0; flex: 0 0 min(260px, 70%); scroll-snap-align: start; }
-.gallery img { border-radius: 28px; border: 1px solid var(--line); }
-.gallery figcaption { color: var(--muted); font-size: 15px; margin-top: 10px; text-align: center; }
-
 /* Spotlights: hero-style bands, a phone rising from the bottom edge beside a short callout,
    switching sides each time. */
 .spotlights { display: grid; gap: 24px; }
