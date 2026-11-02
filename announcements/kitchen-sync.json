@@ -1,0 +1,114 @@
+{
+  "announcements" : [
+    {
+      "expiresAt" : "2026-12-02T18:46:17Z",
+      "id" : "bfd1b75d-9a19-46ec-8ddd-c2a0c9c68e2c",
+      "localizations" : {
+        "de" : {
+          "body" : "Wir testen Rundmitteilungen.",
+          "linkTitle" : "",
+          "title" : "Testnachricht"
+        },
+        "en" : {
+          "body" : "Testing broadcast notifications.",
+          "linkTitle" : "",
+          "title" : "Test message"
+        },
+        "es" : {
+          "body" : "Probando las notificaciones masivas.",
+          "linkTitle" : "",
+          "title" : "Mensaje de prueba"
+        },
+        "fr" : {
+          "body" : "Test des notifications de diffusion.",
+          "linkTitle" : "",
+          "title" : "Message de test"
+        },
+        "id" : {
+          "body" : "Sedang menguji notifikasi siaran.",
+          "linkTitle" : "",
+          "title" : "Pesan uji coba"
+        },
+        "it" : {
+          "body" : "Test delle notifiche broadcast.",
+          "linkTitle" : "",
+          "title" : "Messaggio di prova"
+        },
+        "ja" : {
+          "body" : "一斉配信通知のテストです。",
+          "linkTitle" : "",
+          "title" : "テストメッセージ"
+        },
+        "ko" : {
+          "body" : "전체 알림을 테스트하고 있어요.",
+          "linkTitle" : "",
+          "title" : "테스트 메시지"
+        },
+        "nl" : {
+          "body" : "We testen groepsmeldingen.",
+          "linkTitle" : "",
+          "title" : "Testbericht"
+        },
+        "pl" : {
+          "body" : "Testujemy powiadomienia zbiorowe.",
+          "linkTitle" : "",
+          "title" : "Wiadomość testowa"
+        },
+        "pt-BR" : {
+          "body" : "Testando notificações em massa.",
+          "linkTitle" : "",
+          "title" : "Mensagem de teste"
+        },
+        "ru" : {
+          "body" : "Проверка массовых уведомлений.",
+          "linkTitle" : "",
+          "title" : "Тестовое сообщение"
+        },
+        "sv" : {
+          "body" : "Vi testar massutskick av aviseringar.",
+          "linkTitle" : "",
+          "title" : "Testmeddelande"
+        },
+        "th" : {
+          "body" : "กำลังทดสอบการแจ้งเตือนแบบกระจาย",
+          "linkTitle" : "",
+          "title" : "ข้อความทดสอบ"
+        },
+        "tr" : {
+          "body" : "Toplu bildirimler test ediliyor.",
+          "linkTitle" : "",
+          "title" : "Test mesajı"
+        },
+        "vi" : {
+          "body" : "Đang thử nghiệm thông báo gửi đến mọi người.",
+          "linkTitle" : "",
+          "title" : "Tin nhắn thử nghiệm"
+        },
+        "zh-Hans" : {
+          "body" : "正在测试广播通知。",
+          "linkTitle" : "",
+          "title" : "测试消息"
+        },
+        "zh-Hant" : {
+          "body" : "正在測試廣播通知。",
+          "linkTitle" : "",
+          "title" : "測試訊息"
+        }
+      },
+      "publishedAt" : "2026-11-02T20:59:50Z",
+      "targets" : [
+        {
+          "app" : "kitchen-sync",
+          "versionText" : "",
+          "versions" : "all"
+        },
+        {
+          "app" : "pinpoint",
+          "versionText" : "",
+          "versions" : "all"
+        }
+      ]
+    }
+  ],
+  "schema" : 1
+}
