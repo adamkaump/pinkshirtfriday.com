@@ -1,6 +1,110 @@
 {
   "announcements" : [
     {
+      "expiresAt" : "2026-12-02T23:00:48Z",
+      "id" : "bbe57ae2-5b34-4532-96b4-42e55a93a709",
+      "localizations" : {
+        "de" : {
+          "body" : "Ich sende eine Testnachricht an meine Nutzer",
+          "linkTitle" : "",
+          "title" : "Testnachricht"
+        },
+        "en" : {
+          "body" : "Sending a test message to my users",
+          "linkTitle" : "",
+          "title" : "Test message"
+        },
+        "es" : {
+          "body" : "Enviando un mensaje de prueba a mis usuarios",
+          "linkTitle" : "",
+          "title" : "Mensaje de prueba"
+        },
+        "fr" : {
+          "body" : "Envoi d'un message test à mes utilisateurs",
+          "linkTitle" : "",
+          "title" : "Message test"
+        },
+        "id" : {
+          "body" : "Mengirim pesan uji coba ke pengguna saya",
+          "linkTitle" : "",
+          "title" : "Pesan uji coba"
+        },
+        "it" : {
+          "body" : "Invio di un messaggio di prova ai miei utenti",
+          "linkTitle" : "",
+          "title" : "Messaggio di prova"
+        },
+        "ja" : {
+          "body" : "ユーザーの皆さんにテストメッセージを送信しています",
+          "linkTitle" : "",
+          "title" : "テストメッセージ"
+        },
+        "ko" : {
+          "body" : "사용자분들께 테스트 메시지를 보내고 있어요",
+          "linkTitle" : "",
+          "title" : "테스트 메시지"
+        },
+        "nl" : {
+          "body" : "Ik stuur een testbericht naar mijn gebruikers",
+          "linkTitle" : "",
+          "title" : "Testbericht"
+        },
+        "pl" : {
+          "body" : "Wysyłam wiadomość testową do moich użytkowników",
+          "linkTitle" : "",
+          "title" : "Wiadomość testowa"
+        },
+        "pt-BR" : {
+          "body" : "Enviando uma mensagem de teste para meus usuários",
+          "linkTitle" : "",
+          "title" : "Mensagem de teste"
+        },
+        "ru" : {
+          "body" : "Отправляю тестовое сообщение своим пользователям",
+          "linkTitle" : "",
+          "title" : "Тестовое сообщение"
+        },
+        "sv" : {
+          "body" : "Skickar ett testmeddelande till mina användare",
+          "linkTitle" : "",
+          "title" : "Testmeddelande"
+        },
+        "th" : {
+          "body" : "กำลังส่งข้อความทดสอบถึงผู้ใช้ของเรา",
+          "linkTitle" : "",
+          "title" : "ข้อความทดสอบ"
+        },
+        "tr" : {
+          "body" : "Kullanıcılarıma bir test mesajı gönderiyorum",
+          "linkTitle" : "",
+          "title" : "Test mesajı"
+        },
+        "vi" : {
+          "body" : "Đang gửi tin nhắn thử nghiệm đến người dùng của mình",
+          "linkTitle" : "",
+          "title" : "Tin nhắn thử nghiệm"
+        },
+        "zh-Hans" : {
+          "body" : "正在向用户发送一条测试消息",
+          "linkTitle" : "",
+          "title" : "测试消息"
+        },
+        "zh-Hant" : {
+          "body" : "正在向使用者傳送一則測試訊息",
+          "linkTitle" : "",
+          "title" : "測試訊息"
+        }
+      },
+      "publishedAt" : "2026-11-02T23:01:33Z",
+      "targets" : [
+        {
+          "app" : "kitchen-sync",
+          "versionText" : "",
+          "versions" : "all"
+        }
+      ]
+    },
+    {
       "expiresAt" : "2026-12-02T18:46:17Z",
       "id" : "bfd1b75d-9a19-46ec-8ddd-c2a0c9c68e2c",
       "localizations" : {
